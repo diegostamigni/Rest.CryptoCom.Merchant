@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rest.CryptoCom.Merchant", "Rest.CryptoCom.Merchant\Rest.CryptoCom.Merchant.csproj", "{92FA6708-71B9-4058-9F7B-782092F9E306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rest.CryptoCom.Merchant.Abstractions", "Rest.CryptoCom.Merchant.Abstractions\Rest.CryptoCom.Merchant.Abstractions.csproj", "{393CF4D3-1246-4FD6-A030-7B9ADBCF3347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rest.CryptoCom.Merchant.Requests", "Rest.CryptoCom.Merchant.Requests\Rest.CryptoCom.Merchant.Requests.csproj", "{122F0BBF-65DB-4A6A-A1A1-4EE13D267AE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rest.CryptoCom.Merchant.Responses", "Rest.CryptoCom.Merchant.Responses\Rest.CryptoCom.Merchant.Responses.csproj", "{639AEAF8-3EA3-43DD-BF97-C7054DDA11EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rest.CryptoCom.Merchant.ServiceModel", "Rest.CryptoCom.Merchant.ServiceModel\Rest.CryptoCom.Merchant.ServiceModel.csproj", "{5CBDB3F2-8B12-4499-BC77-54D8C8ED3616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rest.CryptoCom.Merchant.Tests", "Rest.CryptoCom.Merchant.Tests\Rest.CryptoCom.Merchant.Tests.csproj", "{774E2615-011E-40DF-8A28-7C09A5EFBA84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92FA6708-71B9-4058-9F7B-782092F9E306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FA6708-71B9-4058-9F7B-782092F9E306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FA6708-71B9-4058-9F7B-782092F9E306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FA6708-71B9-4058-9F7B-782092F9E306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393CF4D3-1246-4FD6-A030-7B9ADBCF3347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393CF4D3-1246-4FD6-A030-7B9ADBCF3347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393CF4D3-1246-4FD6-A030-7B9ADBCF3347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393CF4D3-1246-4FD6-A030-7B9ADBCF3347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122F0BBF-65DB-4A6A-A1A1-4EE13D267AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122F0BBF-65DB-4A6A-A1A1-4EE13D267AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122F0BBF-65DB-4A6A-A1A1-4EE13D267AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122F0BBF-65DB-4A6A-A1A1-4EE13D267AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{639AEAF8-3EA3-43DD-BF97-C7054DDA11EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{639AEAF8-3EA3-43DD-BF97-C7054DDA11EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{639AEAF8-3EA3-43DD-BF97-C7054DDA11EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{639AEAF8-3EA3-43DD-BF97-C7054DDA11EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CBDB3F2-8B12-4499-BC77-54D8C8ED3616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CBDB3F2-8B12-4499-BC77-54D8C8ED3616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CBDB3F2-8B12-4499-BC77-54D8C8ED3616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CBDB3F2-8B12-4499-BC77-54D8C8ED3616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{774E2615-011E-40DF-8A28-7C09A5EFBA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774E2615-011E-40DF-8A28-7C09A5EFBA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774E2615-011E-40DF-8A28-7C09A5EFBA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774E2615-011E-40DF-8A28-7C09A5EFBA84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
