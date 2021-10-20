@@ -20,7 +20,7 @@ namespace Rest.CryptoCom.Merchant.Tests
 				CancelUrl = "https://www.example.com/canceled",
 				Metadata = new()
 				{
-					{ "internalInfo", Guid.NewGuid() }
+					{ "internalInfo", Guid.NewGuid().ToString() }
 				}
 			};
 
