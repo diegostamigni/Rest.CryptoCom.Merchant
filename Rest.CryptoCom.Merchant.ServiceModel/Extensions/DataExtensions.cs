@@ -11,7 +11,7 @@ namespace Rest.CryptoCom.Merchant.ServiceModel.Extensions
 				return default;
 			}
 
-			return JsonSerializer.Deserialize<T>(data.Object.Value.GetRawText(), new()
+			return JsonSerializer.Deserialize<T>(data.Object.Value.GetRawText(), new JsonSerializerOptions
 			{
 				PropertyNameCaseInsensitive = true
 			});
