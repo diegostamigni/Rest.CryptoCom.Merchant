@@ -2,6 +2,7 @@ using System;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using Rest.CryptoCom.Merchant.Abstractions;
 
 namespace Rest.CryptoCom.Merchant
@@ -18,7 +19,7 @@ namespace Rest.CryptoCom.Merchant
 		protected readonly JsonSerializerOptions JsonSerializerOptions = new()
 		{
 			PropertyNameCaseInsensitive = true,
-			IgnoreNullValues = true,
+			DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
 			PropertyNamingPolicy = JsonNamingPolicy.CamelCase
 		};
 

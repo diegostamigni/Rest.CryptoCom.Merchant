@@ -22,8 +22,11 @@ namespace Rest.CryptoCom.Merchant
 
 				if (property.IsDefined(typeof(JsonPropertyNameAttribute)))
 				{
-					var jsonName = property.GetCustomAttribute<JsonPropertyNameAttribute>().Name;
-					query[jsonName] = $"{propertyValue}";
+					var jsonName = property.GetCustomAttribute<JsonPropertyNameAttribute>()?.Name;
+					if (jsonName != null)
+					{
+						query[jsonName] = $"{propertyValue}";
+					}
 				}
 				else
 				{
