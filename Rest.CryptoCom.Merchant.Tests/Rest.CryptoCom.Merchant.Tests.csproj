@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp6.0</TargetFramework>
+        <TargetFrameworks>netcoreapp5.0</TargetFrameworks>
         <LangVersion>latest</LangVersion>
         <Nullable>enable</Nullable>
     </PropertyGroup>
@@ -18,8 +18,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Rest.CryptoCom.Merchant.Abstractions\Rest.CryptoCom.Merchant.Abstractions.csproj" />
-      <ProjectReference Include="..\Rest.CryptoCom.Merchant\Rest.CryptoCom.Merchant.csproj" />
+        <ProjectReference Include="..\Rest.CryptoCom.Merchant.Abstractions\Rest.CryptoCom.Merchant.Abstractions.csproj" />
+        <ProjectReference Include="..\Rest.CryptoCom.Merchant\Rest.CryptoCom.Merchant.csproj" />
     </ItemGroup>
 
 </Project>
